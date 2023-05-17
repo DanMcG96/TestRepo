@@ -22,7 +22,7 @@ if (result.error) {
 async function init() {
   const server = Hapi.server({
     port: 3000,
-    host: "localhost",
+    host: 'localhost',
   });
 
   await server.register(Vision);
